@@ -1,17 +1,20 @@
 * {
     color: whitesmoke;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
 }
 
 .timer_Container {    
     height: 200px;
     width: 250px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.timer_Face {
-    font-size: 30px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
+.timer_Face {    
+    display: flex;
+    flex-direction: row;
 }

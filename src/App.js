@@ -1,10 +1,13 @@
-import Timer from './Components/Timer.js'
+import Timer  from './Components/Timer.js'
+
 import './Styles/App.css';
 
-function App() {
+function App() {  
   return (
-    <div className="app">
-      <Timer /> 
+    <div className="app">     
+      
+      <Timer />        
+    
     </div>
   );
 }
